@@ -1,0 +1,14 @@
+package com.atasilyas.crud.backend.dto;
+
+import lombok.Builder;
+import lombok.Data;
+
+
+@Data
+@Builder
+public class PageRequest {
+
+    Integer pageNo;
+    Integer pageSize;
+    String sortBy;
+}
